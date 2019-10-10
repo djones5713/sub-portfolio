@@ -1,0 +1,105 @@
+header {
+    width: 90%;
+    background-color: #B954F4;
+    margin: 0 auto;
+    height: 357px;
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+header h4 {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#Destiny {
+    width: 379px;
+}
+
+#Bio {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 50px;
+   padding-right: 50px;
+    display: block;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skills {
+    width: 275px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.icons {
+    width: 60px;
+}
+
+.skills h3 {
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+}
+
+.skills-info {
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+#project-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.project-title {
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.project {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color:#B954F4;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding-top: 30px;
+}
+
+.project:hover {
+    background-color: blueviolet;
+}
